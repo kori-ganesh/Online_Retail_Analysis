@@ -1,4 +1,4 @@
-# 📊 Online Retail Analytics: Strategic EDA & Customer Insights
+# 📊 Online Retail Analysis: Strategic EDA & Customer Insights
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
@@ -6,10 +6,10 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-444876?style=for-the-badge&logo=seaborn&logoColor=white)
 
 ## 📌 Project Executive Summary
-This project involves a deep-dive Exploratory Data Analysis (EDA) of online retail transactions. Developed in **Google Colab**, the analysis moves beyond basic data cleaning to provide actionable business intelligence regarding customer retention, geographical market dependency, and seasonal inventory planning.
+This project involves a deep-dive Exploratory Data Analysis (EDA) of online retail transactions. Developed in **Google Colab**, the analysis moves beyond basic data cleaning to provide actionable business intelligence regarding customer retention and geographical market dependency.
 
 ## 🗂️ Dataset Information
-The analysis is performed on the **Online Retail Dataset**, which contains all transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based, non-store online retail business.
+The analysis is performed on the **Online Retail Dataset**, which contains all transactions occurring for a UK-based, non-store online retail business.
 
 * **Data Source:** [UCI Machine Learning Repository - Online Retail](https://archive.ics.uci.edu/ml/datasets/online+retail)
 * **Key Columns:**
@@ -32,7 +32,7 @@ Understanding when a customer is "at risk" is vital for retention marketing.
 * **Metric:** Established a **Churn Threshold of 90 days**.
 * **Action:** A vertical blue dashed line (`axvline`) identifies customers who haven't purchased in 3+ months, marking them as targets for re-engagement campaigns.
 
-> **[Space for Screenshot: Customer Churn Histogram]**
+![Customer Churn Analysis](https://github.com/kori-ganesh/Online_Retail_Analysis/blob/main/visulaization%20screenshot/Customer%20churn%20analysis.png)
 
 ---
 
@@ -41,7 +41,7 @@ Is the business over-reliant on a single "hero" product?
 * **Analysis:** Top 5 products by percentage contribution using a **Horizontal Bar Chart**.
 * **Insight:** The analysis indicates that sales are not dependent on a single product but are distributed across most products. This indicates a **healthy product mix** and low risk of revenue loss if one item goes out of stock.
 
-> **[Space for Screenshot: Top 5 Products Bar Chart]**
+![Top 5 products](https://github.com/kori-ganesh/Online_Retail_Analysis/blob/main/visulaization%20screenshot/percentage%20distribution%20of%20top%205%20products.png)
 
 ---
 
@@ -51,7 +51,7 @@ Identifying revenue concentration and market vulnerability.
 * **Critical Insight:** Sales are heavily dependent on the **United Kingdom (84.6%)**.
 * **Recommendation:** This concentration represents a potential risk. The retailer should offer special discounts and loyalty programs to retain the UK base while diversifying into other international markets to avoid heavy losses if the local market faces a downturn.
 
-> **[Space for Screenshot: Top 5 Countries Bar Chart]**
+![Top 5 countries](https://github.com/kori-ganesh/Online_Retail_Analysis/blob/main/visulaization%20screenshot/percentage%20distribution%20of%20top%205%20country.png)
 
 ---
 
@@ -61,7 +61,7 @@ When should the business scale its operations?
 * **Observation:** Sales show a steady increase starting in **August** and reach a **peak in November**.
 * **Business Logic:** This surge is likely due to the holiday/festival season. The business must complete inventory management and stock-up by Q3 to meet this year-end demand.
 
-> **[Space for Screenshot: Monthly Sales Line Chart]**
+![monthly sales](https://github.com/kori-ganesh/Online_Retail_Analysis/blob/main/visulaization%20screenshot/line%20chart%20for%20monthly%20sales.png)
 
 ---
 
@@ -78,7 +78,5 @@ The analysis reveals a business with a strong, diverse product line and a powerf
 
 ## 👤 Contact Me
 **Kori Ganesh**
-* **Role:** Data Analyst
 * **Email:** [gldnganesh@gmail.com](mailto:gldnganesh@gmail.com)
-* **LinkedIn:** [Your LinkedIn Profile Link]
-* **GitHub:** [Your GitHub Profile Link]
+* **LinkedIn:** [https://www.linkedin.com/in/kori-ganesh/]
